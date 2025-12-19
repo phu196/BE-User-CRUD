@@ -1,0 +1,4 @@
+API GET
+Hai truy vấn (lấy dữ liệu trang hiện tại và đếm tổng số bản ghi) không phụ thuộc lẫn nhau, nên chạy đồng thời sẽ nhanh hơn so với chạy tuần tự.
+API POST 
+Thêm dòng const checkExistEmail = await User.findOne({ email }) rồi lồng if else để kiểm tra trùng lặp email.
